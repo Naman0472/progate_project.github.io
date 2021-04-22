@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif, "Garamond";
+}
+
+/*NAVBAR*/
+.topnav {
+  overflow: hidden;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#logo{
+    display: flex;
+}
+#logo div{
+    position: relative;
+    left: 80px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding-left: 2rem;
+    padding-top:1.5rem ;
+}
+#logo button{
+    position: relative;
+    top: 1.2rem;
+    left: 7rem;
+    height: 40px;
+    width: 80px;
+    border-radius: 40px;
+}
+#btn1{
+    color:white;
+    background-color: cyan;
+    outline: none;
+    font-size: 20px;
+}
+#btn1:hover{
+    color: yellow;
+    background-color: hsl(108, 91%, 49%);
+}
+#btn2{
+    color:#f00b0b;
+    background-color: yellow;
+    outline: none;
+    font-size: 20px;
+}
+#btn2:hover{
+    color: cyan;
+    background-color:hsl(224, 94%, 49%);
+} 
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+#logo img{
+	height: 180px;
+	width: 200px;
+	padding-left: 30px;
+
+}
+#logo h1{
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 40px;
+
+}
+
+
+/* #head{
+    height: 180px;
+    width: 90%;
+    margin-left:70px;
+    padding: 1.2rem 0rem 0rem 24rem;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+
+}
+#head button{
+    height: 40px;
+    width: 90px;
+    margin-left: 3rem;
+}
+#btn1{
+    color:white;
+    background-color: cyan;
+    outline: none;
+    font-size: 20px;
+}
+#btn1:hover{
+    color: yellow;
+    background-color: hsl(108, 91%, 49%);
+}
+#btn2{
+    color:#f00b0b;
+    background-color: yellow;
+    outline: none;
+    font-size: 20px;
+}
+#btn2:hover{
+    color: cyan;
+    background-color:hsl(224, 94%, 49%);
+} */
+
+
+
+
+
+
+     /*Flex*/
+.groceries-container{
+	display: flex;
+	height: auto;
+	width: 80%;
+	margin-left: 220px;
+
+}
+
+.groceries-container div{
+	height: auto;
+	width: 160px;
+	border: 2px solid black;
+	margin: 20px;
+}
+ /*Footer*/
+
+footer{
+    background-color: lightgrey;
+    height: 350px;
+
+
+}
+
+
+
+.icons{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.icons div{
+    margin: 20px;
+}
